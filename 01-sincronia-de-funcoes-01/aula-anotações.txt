@@ -12,6 +12,8 @@ de uma operação assíncrona
     * .then() é chamado quando a Promise é resolvida
     * .catch é chamado apenas quando a Promise é rejeitada
 
+------------------------------------------------------------
+
 O que é um Callback?
 - o callback chama uma função por parâmetro
 - é executada quando a operação assíncrona é concluida 
@@ -29,3 +31,16 @@ setTimeout(callback, 2000);
  e o callback está sendo chamado por parâmetro e o tempo 
  de intervalo para chamá-lo.
  
+-------------------------------------------------------------
+
+O que é Async/Await?
+
+- é uma caracteristica introduzida no JS para lidar com operações
+assíncronas de uma maneira mais rápida e legível.
+    * async: é usada pra definir uma função assíncrona 
+    * await: é usada apenas dentro de uma função async
+             é utilizada pra esperar uma Promise
+- Facilita a visualização do fluxo de funções
+- Não altera a perfomance de sua aplicação 
+- Veio da galera do C#
+- usar apenas quando necessitar tratar a resposta da chamada

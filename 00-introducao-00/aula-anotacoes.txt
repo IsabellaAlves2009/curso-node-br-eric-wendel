@@ -1,0 +1,52 @@
+o que >>>NÃO<<< é o Node.JS?
+
+- Uma linguagem de programação
+    * porque você programa em JS
+    * O que tá rodando na plataforma é o próprio JS
+
+- Ferramenta pra criação de sites simples
+    * Node não roda no front-end
+    * É as aplicações do JS que roda no chrome, etc
+    * A ferramenta roda por debaixo dos panos(back-end)
+para conectar com o banco de dados, sistema operacional, etc.
+
+-Um framework JS
+    * É uma ferramenta voltada a desenvolvimento de 
+aplicações
+
+- Ferramenta para criação de aplicações front-end
+
+=> E o que é Node.js?
+
+- plataforma de construção para aplicações back-end 
+usando JS
+
+- essa plataforma foi criada em 2009 pelo Ryan Dahl para
+resolver um problema de upload de imagens
+
+- ferramenta é usada para manipulação de:
+    * videos
+    * arquivos
+    * criação de webservice
+    * usada pra criação construção de ferramentas de 
+linha de comando
+
+---------------------------------------------------
+
+O que é NPM?
+
+- significa Node Package Manager
+- gerenciador de dependencias de JS
+- uma plataforma pra executar codigos 
+no JS (npm start, npm run dev...)
+- É usado pra instalar, gerenciar, compartilhar pacotes 
+
+------------------------------------------------------
+
+- o sistema operacional é um software, que pode ser um:
+    * Linux
+    * Windows
+    * MacOS
+    * UNIX
+    * Android
+    e etc.
