@@ -1,5 +1,5 @@
 O que é Event Emitter?
--
+
 - É usado pra ações contínuas
 - Node.js usa para quase tudo em seu ecossistema
 - Bastante usado também nos browsers (.onClick)

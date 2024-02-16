@@ -2,7 +2,7 @@ O que é uma Promise?
 
 - É uma função assíncrona( não corresponde em tempo real)
 
-- Essa função pode estar em três lados:
+- Essa função pode estar em três estados:
     * Pending: quando a operação não foi concluída ainda.
     * Fulfilled: quando a operação foi realizada;
     * Rejected: quando a operação falhou
@@ -10,7 +10,7 @@ O que é uma Promise?
 - A promise fornecem métodos para lidar com o resultado 
 de uma operação assíncrona
     * .then() é chamado quando a Promise é resolvida
-    * .catch é chamado apenas quando a Promise é rejeitada
+    * .catch() é chamado apenas quando a Promise é rejeitada
 
 ------------------------------------------------------------
 O que é um Callback?

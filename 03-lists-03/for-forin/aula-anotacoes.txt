@@ -1,0 +1,15 @@
+A diferença entre FOR, FOR IN & FOR OF
+
+- For é usado pra iterar sobre uma sequência de elementos
+    * Ele geralmente é utilizado quando se sabe o número de 
+    iterações necessárias
+
+- for in é usado para iterar sobre as propriedades enumeráveis 
+de um objeto
+    *Normalmente, você o usaria para iterar sobre as chaves de um
+    objeto, não sobre os valores de um array
+
+- for of  é usado para iterar sobre os valores de objetos 
+iteráveis como arrays, strings, mapas, conjuntos, etc
+    *Ele simplifica a iteração em comparação com o for clássico,
+    pois não é necessário controlar o índice ou a chave
