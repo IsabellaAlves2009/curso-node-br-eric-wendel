@@ -13,7 +13,6 @@ de uma operação assíncrona
     * .catch é chamado apenas quando a Promise é rejeitada
 
 ------------------------------------------------------------
-
 O que é um Callback?
 - o callback chama uma função por parâmetro
 - é executada quando a operação assíncrona é concluida 
@@ -32,7 +31,6 @@ setTimeout(callback, 2000);
  de intervalo para chamá-lo.
  
 -------------------------------------------------------------
-
 O que é Async/Await?
 
 - é uma caracteristica introduzida no JS para lidar com operações
