@@ -13,3 +13,5 @@ de um objeto
 iteráveis como arrays, strings, mapas, conjuntos, etc
     *Ele simplifica a iteração em comparação com o for clássico,
     pois não é necessário controlar o índice ou a chave
+
+--------------------------------------------------------------
