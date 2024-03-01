@@ -41,6 +41,7 @@ class Postgres extends ICrud{
             freezeTableName: false,
             timesTamps: false
         })
+        await Herois.sync()
     }
     create(item){
         console.log('O item foi salvo em postgres')
