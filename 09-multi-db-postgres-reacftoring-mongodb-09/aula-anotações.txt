@@ -1,0 +1,7 @@
+o que é extends?
+
+- é utilizada em classes pra criar uma nova classe que herda 
+propriedades de outra classe (pai e filho);
+- pode herdar comportamentos da classePai e ter comportamentos específicos;
+
+-------------------------------------------
