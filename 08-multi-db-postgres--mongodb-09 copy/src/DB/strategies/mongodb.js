@@ -34,7 +34,7 @@ class MongoDB extends ICrud {
 
         const connection = Mongoose.connection
         this._driver = connection
-        connection.open('open', () => console.log('database rodando!!'))
+        connection.once('open', () => console.log('database rodando!!'))
         this.defineModel();
     }
     defineModel(){
@@ -54,6 +54,9 @@ class MongoDB extends ICrud {
         })
 
         this._herois = Mongoose.model('herois', heroiSchema)
+    }
+    update(id, item){
+        return this._herois.updateOne({_id: id}, {$set: {item}})
     }
     async create(item){
        return this._herois.create(item);

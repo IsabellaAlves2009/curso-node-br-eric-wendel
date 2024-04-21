@@ -1,6 +1,6 @@
 const assert = require('assert');
 const Postgres = require('../DB/strategies/postgries');
-const HeroiSchema = require('./../DB/strategies/mongoDB/schemas/heroiSchema')
+const HeroiSchema = require('../DB/strategies/mongoDB/schemas/heroiSchema')
 const Context = require('../DB/strategies/base/contextStrategy');
 const MongoDB = require('../DB/strategies/mongoDB/mongodb')
 const { mongo } = require('mongoose');
